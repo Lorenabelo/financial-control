@@ -1,54 +1,41 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby minimal starter
-</h1>
+# Financial Control
 
-## 🚀 Quick start
+Financial control is an application where the user can record their monthly expenses and profits, and get a positive or negative response from their accounts.
 
-1.  **Create a Gatsby site.**
+## Tech Stack
 
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
+**Client:** Gatsby, TypeScript, styled-components
 
-    ```shell
-    # create a new Gatsby site using the minimal starter
-    npm init gatsby
-    ```
+## Screenshots
 
-2.  **Start developing.**
+![App Screenshot](https://i.imgur.com/OmyiW2R.png)
 
-    Navigate into your new site’s directory and start it up.
+## Run Locally
 
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
+Clone the project
 
-3.  **Open the code and start customizing!**
+```bash
+  git clone https://github.com/Lorenabelo/financial-control.git
+```
 
-    Your site is now running at http://localhost:8000!
+Go to the project directory
 
-    Edit `src/pages/index.js` to see your site update in real-time!
+```bash
+  cd financial-control
+```
 
-4.  **Learn more**
+Install dependencies
 
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+```bash
+  yarn
+```
 
-    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+Start the server
 
-    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+```bash
+  gatsby develop
+```
 
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+## Authors
 
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-## 🚀 Quick start (Gatsby Cloud)
-
-Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
-
-[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-minimal)
+- [@lorenabelo](https://github.com/Lorenabelo)
